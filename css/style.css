@@ -398,3 +398,48 @@ margin-bottom: 24px;
     background-color: white;
     color: #7678ED;
 }
+
+/*  Blog Section CSS */
+
+#blog{
+    padding: 48px 0px;
+    background-color: var(--gray-bg);
+}
+.blog-item{
+    padding: 24px;
+    box-shadow: 10px 32px 72px #0f0d2312;
+}
+.blog-item img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+.blog-item h4{
+    color: #13132C;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+.blog-item p{
+    margin-top:16px ;
+    margin-bottom: 24px;
+    color: #898998;
+   font-size: 14px;
+   line-height: 24px;
+}
+.blog-item a{
+    color: #F18701;
+    font-weight: 500;
+    font-size: 18px;
+}
+.blog-item i{
+    margin-left: 12px;
+}
+
+.blogs button{
+    color: #7678ED;
+    background-color: transparent;
+    border: 1px solid #7678ED;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
