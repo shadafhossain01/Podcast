@@ -176,7 +176,8 @@ padding: 24px 35px;
 
 /*  Diffrent CSS */
 #diffrent{
-    padding: 48px 0px;
+    padding-top: 96px;
+    padding-bottom: 48px;
 }
 
 #diffrent .section-top{
@@ -263,7 +264,8 @@ margin-bottom: 24px;
 }
 
 .episode-box{
-    padding: 48px 0px;
+    padding-top: 96px;
+    padding-bottom: 48px;
 }
 
 .episode-item{
@@ -321,7 +323,8 @@ margin-bottom: 24px;
 
 /*  Pricing CSS */
 #pricing{
-    padding: 48px 0px;
+    padding-top: 96px;
+    padding-bottom: 48px;
 }
 
 #pricing .section-top p{
@@ -402,7 +405,8 @@ margin-bottom: 24px;
 /*  Blog Section CSS */
 
 #blog{
-    padding: 48px 0px;
+    padding-top: 96px;
+    padding-bottom: 48px;
     background-color: var(--gray-bg);
 }
 .blog-item{
@@ -442,4 +446,107 @@ margin-bottom: 24px;
     display: block;
     margin: 0 auto;
     margin-top: 40px;
+}
+
+/*  testimonial CSS */
+
+#testimonial{
+    padding-top: 96px;
+}
+
+.testimonal-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+.testimonal-top h2{
+    color: #13132C;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 70px;
+    max-width: 403px;
+}
+.testimonal-top button{
+    color: #7678ED;
+    background-color: transparent;
+    border: 1px solid #7678ED;
+    align-self:center;
+}
+
+.testimonial-item{
+    border: 1px solid #DDDDDD;
+    padding: 24px;
+    background-color: #fff;
+}
+
+.testimonial-item p{
+    color: #62636C;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: italic;
+    position: relative;
+    margin-top: 30px;
+}
+
+.testimonial-item p::after{
+    content: "";
+    position: absolute;
+    background: url(../image/quote.png);
+    width: 22px;
+    height: 24px;
+    background-repeat: no-repeat;
+    top: -33px;
+    left: 0px;
+}
+
+.testimonial-item p::before{
+    content: "";
+    position: absolute;
+    width: 90%;
+    background-color: #DDDDDD;
+    height: 2px;
+    top: -25px;
+    right: 10px;
+}
+
+.testimonial-item img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-item .user-info{
+    display: flex;
+    column-gap: 16px;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.testimonial-item .user-info h4{
+    color: #13132C;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.testimonial-item .user-info span{
+    color: #898998;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* Footer CSS */
+
+footer{
+    background-color: #13132C;
+    padding-top: 290px;
+    padding-bottom: 35px;
+    margin-top: -133px;
 }

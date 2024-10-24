@@ -96,6 +96,26 @@ padding-top: 24px;
     margin-bottom: 10px;
 }
 
+#testimonial {
+    padding-top: 20px;
+}
+
+.testimonal-top button{
+    display: none;
+}
+
+.testimonal-top h2 {
+    font-size: 36px;
+    line-height: 45px;
+    max-width: 403px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial-item {
+    margin-bottom: 15px;
+}
+
 }
 
 
@@ -225,6 +245,9 @@ padding-top: 24px;
     display: none;
 }
 
+.testimonial-item {
+    margin-bottom: 15px;
+}
 
 }
 
@@ -239,7 +262,16 @@ padding-top: 24px;
     #diffrent .section-top h2 {
         font-size: 42px;
     }
+#diffrent img{
+    width: 100%;
+}
+.testimonial-item p {
+    font-size: 14px;
 
+}
+.testimonial-item .user-info h4 {
+    font-size: 14px;
+}
 
 }
 
