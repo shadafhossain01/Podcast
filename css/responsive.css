@@ -10,6 +10,52 @@
         margin-top: 5px;
     }
 
+#banner .row{
+    flex-direction: column-reverse;
+}
+
+#banner{
+    padding-top: 0px;
+}
+
+.banner-right {
+    text-align: end;
+}
+
+.banner-right img:first-child {
+width: 85%;
+}
+
+.banner-right img:last-child {
+ left: -19px;
+}
+.banner-left{
+    text-align: center;
+}
+.banner-left h2{
+padding-top: 24px;
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 297px;
+    margin: 0 auto;
+}
+
+.banner-left p {
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    max-width: 363px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.btn-group{
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.counter{
+    justify-content: center;
+}
+
 
 }
 
@@ -22,8 +68,55 @@
     header .mainBtn{
         margin-top: 10px;
     }
+    #banner{
+        padding-top: 0px;
+    }
 
+    .banner-right img:first-child {
+        width: 85%;
+        }
+        
+        .banner-right img:last-child {
+         left: -19px;
+        }
+        .banner-left{
+            text-align: center;
+        }
+        .banner-left h2{
+            padding-top: 0px;
+            font-size: 24px;
+            line-height: 36px;
+            max-width: 354px;
+            margin: 0 auto;
+        }
+        
+        .banner-left p {
+            margin: 0 auto;
+            margin-top: 16px;
+            margin-bottom: 24px;
+            max-width: 496px;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .btn-group{
+            justify-content: center;
+            margin-bottom: 32px;
+        }
+        .counter{
+            justify-content: center;
+            margin-bottom: 16px;
+        }
 
+        .banner-right img:first-child {
+            width: 90%;
+            }
+            
+            .banner-right img:last-child {
+             left: -24px;
+            }
+            .banner-right{
+                text-align:right;
+            }
 
 }
 
@@ -40,13 +133,45 @@
 .navbar-brand img{
     width: 100%;
 }
+#banner {
+    padding-top: 15px;
+}
+
+.banner-left h2 {
+    font-size: 39px;
+    line-height: 50px;
+}
+.banner-left p {
+    max-width: 601px;
+}
+.btn-group {
+    margin-bottom: 22px;
+}
+
+.counter {
+    margin-bottom: 15px;
+}
+
+.banner-right {
+    text-align: right;
+}
+
+.banner-right img:first-child {
+    width: 605px;
+}
+.banner-right img:last-child {
+    left: -12px;
+}
 
 }
 
 
 /* Large Device */
 @media (min-width:992px) and (max-width:1199.99px) {
-    
+    .banner-left h2 {
+        font-size: 33px;
+        line-height: 51px;
+    }
 }
 
 

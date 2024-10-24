@@ -47,3 +47,76 @@ header .navbar-expand-md .navbar-nav {
 .navbar-toggler {
     border: none;
 }
+
+/* Banner CSS */
+
+#banner{
+    padding-top: 45px;
+    padding-bottom: 90px;
+}
+.banner-left h2{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 70px;
+    color: #13132C;
+    max-width: 576px;
+}
+.banner-left p{
+    color: #898998;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    max-width: 416px;
+}
+.btn-group{
+    display: flex;
+    column-gap: 16px;
+margin-bottom: 55px;
+}
+.btn-group button:first-child{
+    background-color: var(--blue-color);
+    padding: 14px 40px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn-group button:last-child{
+    border:1px solid var(--blue-color);
+    padding: 14px 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--blue-color);
+    background-color: transparent;
+}
+.counter{
+    display: flex;
+    column-gap: 24px;
+}
+.counter h4{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--orage-color);
+}
+.counter h4 span{
+color: #13132C;
+font-size: 16px;
+font-weight: 400;
+}
+
+.banner-right{
+    position: relative;
+}
+.banner-right img:first-child {
+    height: 520px;
+    width: 560px;
+    object-fit: cover;
+
+}
+.banner-right img:last-child {
+    position: absolute;
+    left: -101px;
+    bottom: 48px;
+}
