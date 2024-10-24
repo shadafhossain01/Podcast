@@ -168,6 +168,11 @@ padding-top: 24px;
             .record-item p {
                 font-size: 11px;
             }
+
+            #diffrent img{
+                width: 100%;
+            }
+            
 }
 
 
