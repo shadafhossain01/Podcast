@@ -12,6 +12,7 @@
 
 ul,ol{
     list-style-type: none;
+    padding-left: 0px;
 }
 
 a{
@@ -171,4 +172,57 @@ padding: 24px 35px;
     line-height: 24px;
     max-width: 212px;
     margin: 0 auto;
+}
+
+/*  Diffrent CSS */
+#diffrent{
+    padding: 48px 0px;
+}
+
+#diffrent .section-top{
+    text-align: left;
+}
+
+#diffrent .section-top h2{
+    max-width: 491px;
+    margin-left: 0px;
+}
+
+#diffrent .section-top p{
+    max-width: 386px;
+    margin-left: 0px;
+    margin-top: 16px !important;
+    margin-bottom: 32px !important;
+}
+
+.icon-box{
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.icon-box ul li {
+color: #13132C;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 24px;
+ }
+
+ .icon-box ul li:last-child{
+    margin-bottom: 0px;
+ }
+
+ .icon-box ul li i{
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    color: #fff;
+    line-height: 18px;
+    background-color: #F18701;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 10px;
+    margin-right: 14px;
 }

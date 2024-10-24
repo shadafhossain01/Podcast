@@ -66,6 +66,32 @@ padding-top: 24px;
     line-height: 36px;
 }
 
+#diffrent .row{
+    flex-direction: column-reverse;
+}
+#diffrent img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+#diffrent .section-top{
+    text-align: center;
+}
+
+#diffrent  .section-top h2 {
+    font-size: 27px;
+    text-align: center;
+}
+
+#diffrent .icon-box{
+    display: flex;
+    justify-content: center
+}
+
+#diffrent button{
+    display: block;
+    margin: 0 auto;
+}
+
 
 }
 
@@ -187,6 +213,11 @@ padding-top: 24px;
     left: -12px;
 }
 
+#diffrent img{
+    display: none;
+}
+
+
 }
 
 
@@ -196,6 +227,12 @@ padding-top: 24px;
         font-size: 33px;
         line-height: 51px;
     }
+
+    #diffrent .section-top h2 {
+        font-size: 42px;
+    }
+
+
 }
 
 
