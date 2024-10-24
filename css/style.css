@@ -299,7 +299,10 @@ margin-bottom: 24px;
     height: 48px;
     line-height: 48px;
     text-align: center;
-    border-top: 2px outset #7678ED;
+    border-top: 1px solid #7678ed;
+    border-left: 1px solid #7678ed;
+    border-right: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -314,4 +317,84 @@ margin-bottom: 24px;
     border: 1px solid #7678ED;
     display: block;
     margin: 0 auto;
+}
+
+/*  Pricing CSS */
+#pricing{
+    padding: 48px 0px;
+}
+
+#pricing .section-top p{
+    max-width: 386px;
+}
+
+#pricing .btn-group{
+    justify-content: center;
+}
+
+.pricing-item{
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 10px 32px 72px #0f0d2312;
+}
+
+.pricing-item h3{
+    font-weight: 500;
+    font-size: 32px;
+    color: #13132C;
+    text-align: center;
+}
+.pricing-item p{
+    text-align: center;
+    color: #898998;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    max-width: 240px;
+    margin: 24px auto;
+}
+.pricing-item h4{
+    text-align: center;
+    color: #13132C;
+    font-weight: 500;
+    font-size: 40px;
+}
+.pricing-item h4 span{
+    text-align: center;
+    color: #898998;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#pricing .icon-box{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-item button{
+    width: 100%;
+    border: 1px solid #7678ED;
+    color: #7678ED;
+    background-color: transparent;
+    padding: 16px 60px;
+}
+
+.pricing-item:hover{
+    background-color: #7678ED;
+}
+
+.pricing-item:hover h3,
+.pricing-item:hover p, 
+.pricing-item:hover h4,
+.pricing-item:hover h4 span,
+.pricing-item:hover .icon-box ul li{
+    color: #fff;
+}
+.pricing-item:hover li i{
+    background-color: #fff;
+    color: #F18701;
+}
+.pricing-item:hover button{
+    background-color: white;
+    color: #7678ED;
 }
