@@ -57,6 +57,16 @@ padding-top: 24px;
 }
 
 
+#record {
+    padding: 20px 0px;
+}
+
+.section-top h2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
 }
 
 
@@ -118,6 +128,20 @@ padding-top: 24px;
                 text-align:right;
             }
 
+            #record {
+                padding: 20px 0px;
+            }
+            
+            .section-top h2 {
+                font-size: 24px;
+                line-height: 36px;
+            }
+            .record-item h4 {
+                font-size: 18px;
+            }
+            .record-item p {
+                font-size: 11px;
+            }
 }
 
 

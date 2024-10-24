@@ -120,3 +120,55 @@ font-weight: 400;
     left: -101px;
     bottom: 48px;
 }
+
+/*  Record CSS */
+
+#record{
+    padding: 64px 0px;
+    background-color: var(--gray-bg);
+}
+
+.section-top{
+    text-align: center;
+}
+
+.section-top h2{
+    color: #13132C;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    max-width: 643px;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.section-top p{
+    margin-top: 24px !important;
+    margin-bottom: 47px !important;
+    color: #898998;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.record-item{
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 10px 32px 72px #0f0d2305;
+padding: 24px 35px;
+}
+.record-item h4{
+    color: #13132C;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.record-item p{
+    color: #898998;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 212px;
+    margin: 0 auto;
+}
